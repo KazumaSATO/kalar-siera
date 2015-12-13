@@ -1,6 +1,8 @@
 (defproject kalar-siera "0.1.0-SNAPSHOT"
-  :description "FIXME: write description"
-  :url "http://example.com/FIXME"
-  :license {:name "Eclipse Public License"
-            :url "http://www.eclipse.org/legal/epl-v10.html"}
-  :dependencies [[org.clojure/clojure "1.7.0"]])
+  :description "A theme of kalar"
+  :url "https://github.com/KazumaSATO/kalar-siera"
+  :license {:name "The MIT License"
+            :url "http://opensource.org/licenses/mit-license.php"}
+  :dependencies [[org.clojure/clojure "1.7.0"]
+                 [kalar-core "0.1.2"]
+                 [kalar-plugins "0.1.2"]])
