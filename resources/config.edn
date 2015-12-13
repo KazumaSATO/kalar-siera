@@ -1,0 +1,12 @@
+{:plugins [kalar-plugins.templates.page/page
+           kalar-plugins.file.cpy/cpy]
+ :title "RanceWorks"
+ :dest "_site"
+ :posts-dir "resources/posts"
+ :paginate-path "page:num.html"
+ :paginate 3
+ :page-dir "resources/pages"
+ :paginate-template kalar-siera.core/paginate
+ :post-url-pattern "/posts/post:num.html"
+ :cpy ["css" "fonts" "js" "images"]
+ }
